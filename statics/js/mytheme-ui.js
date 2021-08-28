@@ -187,7 +187,8 @@ var MyTheme = {
 			},
 			'Set': function(id,content) {
 				var clipboard = new Clipboard(id, {
-					text: function() {									
+					text: function() {
+						content=content.replaceWith("&amp;","&");									
 						return content;
 					}
 				});

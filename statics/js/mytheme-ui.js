@@ -135,6 +135,7 @@ var MyTheme = {
 			},
 			'Set':  function(url,dark,light) {
 				url=0||location.href;
+				url=url.replace('www.wxtv.net','v11.rssdy.com');
 				var qrcode = new QRCode('qrcode', {
 				  	text: url,
 				  	width: 120,
@@ -227,7 +228,7 @@ var MyTheme = {
 					}else if(shortId.attr("data-url")){
 						shortId.attr("data-url",shortUrl);
 						MyTheme.Link.Copy.Set(codyId,linkText+shortUrl);
-					}	
+					}
 				}
 			});
 		}

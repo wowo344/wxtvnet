@@ -79,10 +79,10 @@
 .myui-player__detail .detail-content{padding-top:10px}
 .myui-player__detail .desc{padding-left:42px}
 .myui-player__detail .desc .left{margin-left:-42px}
-/*
-#player-sidebar::-webkit-scrollbar{ width: 4px; background-color: #1c1b1e;}
-#player-sidebar::-webkit-scrollbar-thumb{background-color: #434145;}
-*/
+
+#player-sidebar::-webkit-scrollbar{ /*width: 4px;*/ background-color: #1c1b1e;}
+/*#player-sidebar::-webkit-scrollbar-thumb{background-color: #434145;}*/
+
 .myui-player__notice{ position: absolute; top: 50%; left: 0; width: 100%; margin-top: -65px;}
 
 .myui-player__notice h3,.myui-player__notice h5,.myui-player__notice p{ color: #fff;}

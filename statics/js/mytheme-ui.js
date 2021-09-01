@@ -470,7 +470,7 @@ var MyTheme = {
 				var PlayerLeft = $("#player-left");
 		    	var PlayerSide = $("#player-sidebar");
 				var LeftHeight = PlayerLeft.outerHeight();
-				var Position = $("#playlist li.active").position().top;
+				var Position = $("#playlist a.selected").position().top;
 				$("#player-sidebar-is").click(function() {
 					PlayerSide.toggle();
 					if(PlayerSide.css("display")==='none') {

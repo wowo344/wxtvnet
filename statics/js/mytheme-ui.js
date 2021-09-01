@@ -719,22 +719,7 @@ $(function(){
 	MyTheme.Other.History.Init();
 	MyTheme.Other.Player();
 	MyTheme.Other.Close();
-	MyTheme.Other.Xunlei();
-	
-	try{
-		$('.module-tab-name').on('click', function(){
-		$(this).parent().toggleClass('module-tab-drop');
-	 });
-	 
-	 $('.close-drop').on('click', function(){
-		$('.module-tab-drop').removeClass('module-tab-drop');
-	 });
-	 $(".sort-button").click(function(){
-		 const lis= document.querySelectorAll(".sort-item>a");
-		   for(let i=lis.length-1; i>-1; i--){
-			 document.querySelector(".sort-item").appendChild(lis[i]);
-	 }
-	 });}catch(e){}
+	MyTheme.Other.Xunlei();	 
 });
 
 

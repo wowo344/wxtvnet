@@ -316,7 +316,7 @@
 @media(max-width:559px){
 .col-lg-wide-6{width:100%!important}
 .col-lg-wide-25{width:100%!important}
-.myui-vodlist__thumb{width:130px!important}
+/*.myui-vodlist__thumb{width:130px!important}*/
 .out{display:none}
 .hidden-xs{display:none!important}
 .module-heading{margin-bottom:10px}

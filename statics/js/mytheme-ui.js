@@ -719,7 +719,10 @@ $(function(){
 	MyTheme.Other.History.Init();
 	MyTheme.Other.Player();
 	MyTheme.Other.Close();
-	MyTheme.Other.Xunlei();	 
+	if(window.location.href.indexOf('voddetail')>=0)
+	{
+		MyTheme.Other.Xunlei();
+	}
 });
 
 

@@ -705,6 +705,10 @@ $(function(){
 	if(MyTheme.Browser.useragent.mobile){
 		MyTheme.Mobile.Nav.Init();
 		MyTheme.Mobile.Mshare();
+		if(window.location.href.indexOf('vodplay')>=0)
+		{
+			$(".myui-extra").hide()
+		}
 	}
 	MyTheme.Images.Lazyload();
 	MyTheme.Images.Flickity.Init();	
@@ -723,6 +727,7 @@ $(function(){
 	{
 		MyTheme.Other.Xunlei();
 	}
+
 });
 
 

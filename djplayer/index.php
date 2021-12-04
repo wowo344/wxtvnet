@@ -9,14 +9,14 @@
 <meta name="referrer" content="never" />
 <meta name="referrer" content="no-referrer"/>
 <title>爱美剧播放器</title>
-<link rel="shortcut icon" href="asset/img/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="asset/css/yzmplayer.css">
+<link rel="shortcut icon" href="//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/img/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/css/yzmplayer.css">
 <style> 
 .yzmplayer-full-in-icon{display: none!important;}
 .yzmplayer-full-icon span svg,.yzmplayer-fulloff-icon span svg{display: none;}
 .yzmplayer-full-icon span,.yzmplayer-fulloff-icon span{background-size:contain!important;float: left;width: 22px;height: 22px;}
-.yzmplayer-full-icon span{background: url(./asset/img/full.png) center no-repeat;}
-.yzmplayer-fulloff-icon span{background: url(./asset/img/fulloff.webp) center no-repeat;}
+.yzmplayer-full-icon span{background: url(//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/img/full.png) center no-repeat;}
+.yzmplayer-fulloff-icon span{background: url(//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/img/fulloff.webp) center no-repeat;}
 #loading-box{background: #<?php echo($_GET['color']);?>!important;}
 #vod-title{overflow: unset;width: 285px;white-space: normal;color: #fb7299;}
 #vod-title e{padding: 2px;}
@@ -39,13 +39,13 @@
 #link3-error{display: none;}
 #stats{position:fixed;top:5px;left:8px;font-size:12px;color:#fdfdfd;text-shadow:1px 1px 1px #000, 1px 1px 1px #000}
 </style>
-<script src="asset/js/yzmplayer.js"></script>
+<script src="//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/js/yzmplayer.js"></script>
 <script src="//cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
-<script src="asset/js/md5.min.js"></script>
-<script src="asset/js/setting.js"></script>
-<script src="asset/js/layer.js"></script>
-<script src="asset/js/flv.min.js"></script>
-<script src="asset/js/hls.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/js/md5.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/js/setting.js"></script>
+<script src="//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/js/layer.js"></script>
+<script src="//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/js/flv.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/wowo344/wxtvnet@1.9.8/djplayer/asset/js/hls.min.js"></script>
     <?php
  
     if(isset($_GET["vodname"]))//如果存在vodname， 则使用vodname
